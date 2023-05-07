@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "app.security.token",
+      "type": "megalab.news.security.TokenUtilities",
+      "sourceType": "megalab.news.security.TokenUtilities"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.security.token.expires-after-days",
+      "type": "java.lang.Integer",
+      "sourceType": "megalab.news.security.TokenUtilities",
+      "defaultValue": 0
+    },
+    {
+      "name": "app.security.token.secret",
+      "type": "java.lang.String",
+      "sourceType": "megalab.news.security.TokenUtilities"
+    }
+  ],
+  "hints": []
+}
